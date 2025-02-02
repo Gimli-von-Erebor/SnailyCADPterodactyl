@@ -8,7 +8,7 @@ ACTIVITY=${ACTIVITY// /_}
 
 rm -f snailycadbotptero.cjs
 rm -rf snailycad-bot
-wget https://raw.githubusercontent.com/TheAFKGamer10/SnailyCADPterodactyl/main/bot/snailycadbotptero.cjs
+wget https://raw.githubusercontent.com/Gimli-von-Erebor/SnailyCADPterodactyl/main/bot/snailycadbotptero.cjs
 node snailycadbotptero.cjs $BOT_TOKEN $ACTIVITY $ACTIVITYTYPE
 
 echo -e "Install Complete"
