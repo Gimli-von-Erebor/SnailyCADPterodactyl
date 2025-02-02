@@ -6,7 +6,7 @@ cd /mnt/server
 
 rm -f snailycadptero.cjs
 rm -rf snaily-cadv4
-wget https://raw.githubusercontent.com/TheAFKGamer10/SnailyCADPterodactyl/main/snailycadptero.cjs
+wget https://raw.githubusercontent.com/Gimli-von-Erebor/SnailyCADPterodactyl/main/snailycadptero.cjs
 node snailycadptero.cjs $CLIENT_URL $API_URL $CLIENT_PORT $API_PORT $DOMAIN $SECURE_COOKIES_FOR_IFRAME
 rm -f snailycadptero.cjs
 
